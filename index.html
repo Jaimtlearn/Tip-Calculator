@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <h4>Total Amount</h4>
+        <input type="text", id="Total-Amount", placeholder="Total Amount(in Rs.)">
+        <h4>Tip</h4>
+        <select name="Tip Options", id="Selection-box">
+            <option value="" selected disabled>Select Any Tip Options</option>
+            <option value="50">50% - Excellent</option>
+            <option value="40">40% - Very Good</option>
+            <option value="30">30% - Good</option>
+            <option value="20">20% - Nuteral</option>
+            <option value="10">10% - Bad</option>
+            <option value="5">5% - Very Bad</option>
+            <option value="0">0% - No Tip</option>
+        </select>
+        <h4>Number of Persons</h4>
+        <input type="text", placeholder="0", id="Total-Persons">
+        <br>
+        <input type="button", id="Submit-button", value="Submit", onclick="Evaluate()">
+    </div>
+    <div id="Output">
+        <h1>Bill</h1>
+        <br><br><br>
+        <div id="left-display">
+            <h4>Tip Per Person</h4>
+            <h4>Amount Per Person</h4>
+            <h4>Total Amount with Tip</h4>
+        </div>
+        <div id = "right-display">
+            <h4 id="Tip-per-person"></h4>
+            <h4 id="Amout-per-person"></h4>
+            <h4 id="TotalAndtip"></h4>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

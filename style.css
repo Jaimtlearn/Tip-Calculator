@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom right, blue, pink);
+    height: 100vh;
+    overflow: hidden;
+}
+#container {
+    float: left;
+    padding: 25px;
+    background-color: lightblue;
+    height: 500px;
+    width: 400px;
+    margin-left: 20%;
+    margin-top: 10vh;
+    text-align: center;
+    border: solid black 3px;
+    box-shadow: 10px 10px 10px black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+#Output{
+    display: none;
+    float: left;
+    height: 500px;
+    width: 450px;
+    background-color: lightblue;
+    margin-top: 10vh;
+    margin-left: 20px;
+    padding: 25px;
+    text-align: center;
+    border: solid black 3px;
+    box-shadow: 10px 10px 10px black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+#left-display{
+    float: left;
+    text-align: left;
+    height: 250px;
+    width: 250px;
+    background-color: lightblue;
+}
+#right-display{
+    float: right;
+    text-align: right;
+    height: 250px;
+    width: 200px;
+    background-color: lightblue;
+}
+h1{
+    font-size: 36px;
+    color: rgb(54, 18, 18);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    color: rgb(54, 18, 18);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#Total-Amount{
+    background-color: rgb(102, 196, 247);
+    color: darkgreen;
+    font-size: 18px;
+    border: solid black 2px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+#Total-Amount::placeholder{
+    color: darkgreen;
+    font-size: 16px;
+}
+#Selection-box{
+    background-color: rgb(102, 196, 247);
+    color: darkgreen;
+    font-size: 16px;
+    border: solid black 2px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+option{
+    font-size: 12px;
+}
+#Total-Persons{
+    background-color: rgb(102, 196, 247);
+    color: darkgreen;
+    font-size: 16px;
+    border: solid black 2px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+#Total-Persons::placeholder{
+    font-size: 16px;
+    color: darkgreen;
+}
+#Submit-button{
+    height: 40px;
+    width: 100px;
+    margin-top: 25px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: darkgreen;
+    font-size: 16px;
+    background-color: rgb(102, 196, 247);
+}
+#Submit-button:hover{
+    cursor: pointer;
+}
